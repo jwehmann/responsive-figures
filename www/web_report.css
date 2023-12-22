@@ -216,19 +216,19 @@ margin-bottom: 35px;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  padding-bottom: 2em;
 }
 
 .flex-fig-item {
-  padding: 0em .5em 0em .5em;
-  flex: 1 0 24%;
+  flex: 1 0 25%;
   text-align: center;
 }
 
 .flex-fig-caption {
-  font-size: .9rem;
+  margin: 0em .5em 0em .5em;
+  font-size: 1rem;
   line-height: 1.3rem;
   font-family: Lato;
-  font-weight: bold;
 }
 
 .flex-fig-visual {
@@ -236,28 +236,34 @@ margin-bottom: 35px;
   vertical-align: bottom;
 }
 
-@media (max-width: 375px) {
-    .flex-fig-container{
-      flex-direction: row-reverse;
-      flex-wrap: wrap;
-      justify-content: inherit;
-    }
-}
+/* Settings for how the grid adapts*/
 
 @media (max-width: 550px) {
     .flex-fig-container{
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: inherit;
+      padding-bottom: 2em;
     }
     
   .flex-fig-item {
-      flex: 0 1 45%;
+      flex: 0 1 50%;
     }
     
     .flex-fig-caption{
-      font-size: 1.1rem;
-      line-height: 1.5rem;
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .flex-fig-container{
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    
+    .flex-fig-item {
+      flex: 0 0 auto;
     }
 }
 
