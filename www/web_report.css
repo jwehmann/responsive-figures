@@ -236,7 +236,7 @@ margin-bottom: 35px;
   vertical-align: bottom;
 }
 
-/* Settings for how the grid adapts*/
+/* Settings for how the grid adapts for mobile*/
 
 @media (max-width: 550px) {
     .flex-fig-container{
@@ -253,17 +253,6 @@ margin-bottom: 35px;
     .flex-fig-caption{
       font-size: 1rem;
       line-height: 1.3rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .flex-fig-container{
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    
-    .flex-fig-item {
-      flex: 0 0 auto;
     }
 }
 
