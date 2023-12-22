@@ -1,0 +1,264 @@
+/* Side by side table style */
+.side_by_side_table{
+  max-width:760px; 
+  margin-top: 50px;
+}
+
+.gt_table{
+  font-family: Lato !important;
+}
+
+/* Responsive infographic style */
+.infographic{
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+.column{
+  padding: 0 7px 0 7px;
+}
+
+.svg_style{
+  display: block;
+  text-align: center;
+}
+
+.logo_text_style{
+  display: block;
+  font-size: 1em;
+}
+
+/* For small screens, this CSS overrides the gtExtras 'float' CSS 
+See https://github.com/jthomasmock/gtExtras/blob/master/R/two-column-layouts.R */
+
+@media screen and (max-width: 550px) {
+  .side_by_side_table div{
+    text-align: center;
+  }
+  
+  .side_by_side_table div div{
+    display:block; 
+    float:none !important;
+  }
+
+  .logo_text_style{
+    display: block;
+    font-size: 0.8em;
+  }
+}
+
+/* infographic style */
+
+.infographic{
+  text-align: center;
+}
+
+.infographic img{
+  max-width: 80%;
+}
+
+/* iframe style */
+iframe {max-width: 100%;}
+
+/* Global Formats */
+
+body {
+  max-width: 760px;
+}
+
+.container-fluid {
+font-family: Lato;
+padding: 0 0 0 0 ;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.main-container {
+font-family: Lato;
+max-width: 760px;
+margin-left: 0;
+margin-right: 0;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+a {
+  color: #1696d2;
+  text-decoration: none;
+}
+
+/* Title Styles */
+h1 {
+font: 700 48px/3rem Lato, sans-serif;
+line-height: 48px;
+margin: 0 0 .5em;
+}
+
+h2 {
+font: 700 36px/2.25rem Lato, sans-serif;
+color: #000000;
+}
+
+h3 {
+font: 200 30px/2rem Lato, sans-serif;
+color: #000000;
+text-transform: uppercase;
+}
+
+h4 {
+font: 700 24px/1.875rem Lato, sans-serif;
+font-style: normal;
+font-variant-ligatures: normal;
+font-variant-caps: normal;
+font-variant-numeric: normal;
+font-variant-east-asian: normal;
+font-stretch: normal;
+font-size: 24px;
+line-height: 30px;
+}
+
+/* Paragraph styles */ 
+p {
+  font: 1.25rem Lato, sans-serif;
+  margin: 0 0 8px 0;
+  line-height: 1.625;
+  color: #353535;
+}
+
+/* Image styles */
+img {
+padding: 36px 0 32px 0;
+max-width: 100%;
+}
+
+.navbar {
+background-color: #1696d2;
+color: #ffffff;
+font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+color: #1696d2;
+background-color: #FFFFFF;
+}
+
+/* List styles */
+li {
+font-size: 16px;
+}
+
+
+/* Link styles */
+.a {
+color: #1696d2;
+}
+
+/* Header image formatting */
+#header {
+padding-top: 12px;
+}
+
+/* Legend Formatting */
+.list-group-item.active {
+background-color: #1696d2;
+border-color: #1696d2;
+}
+
+.list-group-item.active:hover {
+background-color: #000000;
+border-color: #000000;
+}
+
+.tocify {
+border-radius: 0;
+}
+
+/* Button Formatting */
+.btn {
+border-radius: 0;
+}
+
+/* Special styles */
+#date {
+text-align: center;
+  font: italic 14px Georgia,serif;
+  color: #666;
+  margin-bottom: 2em;
+  margin-top: 2em;
+
+
+}
+
+/* Horizontal rule */
+hr {
+border: 1px solid #d2d2d2;
+width: 685px;
+margin-top: 35px;
+margin-bottom: 35px;
+}
+
+/* Flexbox infographic style */
+
+.flex-fig-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex-fig-item {
+  padding: 0em .5em 0em .5em;
+  flex: 1 0 24%;
+  text-align: center;
+}
+
+.flex-fig-caption {
+  font-size: .9rem;
+  line-height: 1.3rem;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.flex-fig-visual {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+@media (max-width: 375px) {
+    .flex-fig-container{
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      justify-content: inherit;
+    }
+}
+
+@media (max-width: 550px) {
+    .flex-fig-container{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: inherit;
+    }
+    
+  .flex-fig-item {
+      flex: 0 1 45%;
+    }
+    
+    .flex-fig-caption{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+}
+
+
