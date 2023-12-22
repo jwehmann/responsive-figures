@@ -256,7 +256,7 @@ margin-bottom: 35px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 360px) {
     .flex-fig-container{
       flex-direction: column;
       flex-wrap: wrap;
