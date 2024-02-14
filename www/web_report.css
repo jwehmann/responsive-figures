@@ -1,3 +1,5 @@
+
+
 /* Side by side table style */
 .side_by_side_table{
   max-width:760px; 
@@ -64,7 +66,7 @@ iframe {max-width: 100%;}
 /* Global Formats */
 
 body {
-  max-width: 760px;
+  /*max-width: 760px;*/
 }
 
 .container-fluid {
@@ -78,8 +80,7 @@ color: #000000;
 .main-container {
 font-family: Lato;
 max-width: 760px;
-margin-left: 0;
-margin-right: 0;
+margin: 2em auto 5em auto;
 font-size: 16px;
 line-height: 24px;
 color: #000000;
@@ -118,6 +119,13 @@ font-variant-east-asian: normal;
 font-stretch: normal;
 font-size: 24px;
 line-height: 30px;
+margin: 2em 0 .1em;
+}
+
+h4.wr-header{
+  font-family: franklin-gothic-urw,Lato;
+  font-weight: 100;
+  color: #002e5d;
 }
 
 /* Paragraph styles */ 
@@ -127,6 +135,20 @@ p {
   line-height: 1.625;
   color: #353535;
 }
+
+p.wr-body{
+  font: 18px Georgia, serif;
+  line-height: 28px;
+}
+
+b{
+  font-weight: 900;
+}
+
+b.wr-caption-pop{
+  color: #61A7C1; 
+}
+
 
 /* Image styles */
 img {
@@ -208,52 +230,113 @@ margin-top: 35px;
 margin-bottom: 35px;
 }
 
-/* Flexbox infographic style */
+/* Flexbox infographic - FOUR COLUMNS */
 
-.flex-fig-container {
+.flex-fig-container-4c {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
-.flex-fig-item {
+.flex-fig-item-4c {
   flex: 1 0 25%;
   text-align: center;
 }
 
+/* Flexbox infographic - TWO COLUMNS */
+
+.flex-fig-container-2c {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.flex-fig-item-2c {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 35%;
+  flex-direction: column;
+  text-align: center;
+  /*
+  border-style: solid;
+  border-width: 1px;
+  */
+
+}
+
+/* Flexbox images and captions */
+
 .flex-fig-caption {
-  margin: 0em .5em 0em .5em;
+  margin: 0em .5em 2em .5em;
   font-size: 1rem;
   line-height: 1.3rem;
   font-family: Lato;
 }
 
+.flex-fig-caption.wr-caption {
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+strong.flex-fig-caption-pop {
+  color: red;
+}
+
 .flex-fig-visual {
   width: 100%;
   vertical-align: bottom;
+  padding:0 0 0 0;
+  /*
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 1, 1);
+  */
+}
+
+.h-flex-example{
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+  margin-block: 2em;
 }
 
 /* Settings for how the grid adapts for mobile*/
 
 @media (max-width: 550px) {
-    .flex-fig-container{
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: inherit;
-      padding-bottom: 2em;
-    }
+  
+  .flex-fig-container-4c{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    padding-bottom: 2em;
+  }
     
-  .flex-fig-item {
+  .flex-fig-item-4c {
       flex: 0 1 50%;
-    }
+  }
     
-    .flex-fig-caption{
-      font-size: 1rem;
-      line-height: 1.3rem;
-    }
+  .flex-fig-container-2c{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    padding-bottom: 2em;
+  }
+    
+  .flex-fig-item-2c {
+      flex: 0 1 50%;
+  }
+    
+  .flex-fig-caption{
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
 }
 
 
