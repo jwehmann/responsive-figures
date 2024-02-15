@@ -316,8 +316,12 @@ margin-bottom: 35px;
 @media (max-width: 550px) {
   
   .flex-fig-caption{
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: .8rem;
+    line-height: 1.1rem;
+  }
+  
+  .source{
+    font-size: 0.8rem;
   }
   
   .flex-fig-container-4c{
@@ -332,16 +336,17 @@ margin-bottom: 35px;
   }
     
   .flex-fig-container-2c{
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: inherit;
     padding-bottom: 2em;
   }
     
   .flex-fig-item-2c {
       flex-grow: 0;
-      flex-shrink: 2;
-      flex-basis: 50%;
+      flex-shrink: 0;
+      flex-basis: 49%;
+      margin: 0 2px 0 2px;
   }
 }
 
