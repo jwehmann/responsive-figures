@@ -68,13 +68,7 @@ if (window.hljs) {
 </script>
 
 
-
-
-
-
 <link rel="stylesheet" href="www/web_report.css" type="text/css" />
-
-
 
 
 </head>
@@ -117,6 +111,8 @@ if (window.hljs) {
   </div>
 </div>
 
+<p class="source"><b>Source:</b> Framework developed by the authors. Icons by Noun Project.</p>
+
 <!-- EXAMPLE 2 WORKRISE -->
 
 <!--Option 1 with stats-->
@@ -132,13 +128,13 @@ if (window.hljs) {
   <div class="flex-fig-item-2c">
     <img class="flex-fig-visual" src="www/figures/set2-workrise/icon-workrise-73percent.png">
     <p class="flex-fig-caption wr-caption"><b class="wr-caption-pop">73 percent of investors</b> indicated that efforts to enhance environmental and societal impact influence their investment decisions</p>
-    <p class="source">Source: <a href="https://www.aflac.com/docs/about-aflac/csr-survey-assets/2019-aflac-csr-infographic-and-survey.pdf">2019 Aflac CSR survey</a></p>
+    <p class="source wr-source">Source: <a href="https://www.aflac.com/docs/about-aflac/csr-survey-assets/2019-aflac-csr-infographic-and-survey.pdf">2019 Aflac CSR survey</a></p>
   </div>
   
   <div class="flex-fig-item-2c">
     <img class="flex-fig-visual" src="www/figures/set2-workrise/icon-workrise-94percent.png">
     <p class="flex-fig-caption wr-caption"><b class="wr-caption-pop">94 percent of consumers</b> and <b class="wr-caption-pop">87 percent of investors</b> consider it somewhat or very important for large companies to address the responsibility of treating employees fairly</p>
-    <p class="source">Source: <a href="https://www.aflac.com/docs/about-aflac/csr-survey-assets/2019-aflac-csr-infographic-and-survey.pdf">2019 Aflac CSR survey</a></p>
+    <p class="source wr-source">Source: <a href="https://www.aflac.com/docs/about-aflac/csr-survey-assets/2019-aflac-csr-infographic-and-survey.pdf">2019 Aflac CSR survey</a></p>
   </div>
 </div>
 
@@ -206,7 +202,7 @@ if (window.hljs) {
   
 <h4>Title of Compound Figure</h4>
   
-  <div class="flex-fig-container-2c">
+  <div class="flex-fig-container-2c fig-stack">
    <div class="flex-fig-item-2c">
      <img class="flex-fig-visual" src="www/figures/housing-innovation-assets/fig3a-cwc-f1.png">
    </div>
@@ -221,6 +217,128 @@ if (window.hljs) {
 
 </div>
 
-<!-- code folding -->
+
+<!-- FLEXBOX FIGURE STYLES -->
+
+<style>
+  
+/* Workrise modifications to standard styles*/
+    
+    b.wr-caption-pop{
+      color: #00315C; 
+    }
+    
+    .source.wr-source{
+      font-family: franklin-gothic-urw,Lato;
+    }
+    
+    .flex-fig-caption.wr-caption {
+      font-family: Georgia, serif;
+      line-height: 1.5;
+    }
+    
+/* Flexbox images and captions */
+    
+    .flex-fig-caption {
+      margin: 0em .5em 0em .5em;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      font-family: Lato;
+    }
+    
+    .flex-fig-visual {
+      display: block;
+      width: 100%;
+      vertical-align: bottom;
+      padding:0 0 0 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    /* Flexbox infographic - FOUR COLUMNS */
+    
+    .flex-fig-container-4c {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 3em;
+    }
+    
+    .flex-fig-item-4c {
+      flex: 1 0 25%;
+      text-align: center;
+    }
+    
+    /* Flexbox infographic - TWO COLUMNS */
+    
+    .flex-fig-container-2c {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      height: 100%;
+      justify-content: space-around;
+      padding-bottom: 2em;
+    }
+    
+    .flex-fig-container-2c.fig-stack {
+      flex-direction: row;
+      background: red;
+    }
+    
+    .flex-fig-item-2c {
+      display: flex;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 35%;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    /* Adjustments for mobile*/
+    
+    @media (max-width: 550px) {
+      
+      .flex-fig-caption{
+        font-size: .8rem;
+        line-height: 1.1rem;
+      }
+      
+      .source{
+        font-size: 0.8rem;
+      }
+      
+      .flex-fig-container-4c{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        padding-bottom: 2em;
+      }
+        
+      .flex-fig-item-4c {
+          flex: 0 1 50%;
+      }
+        
+      .flex-fig-container-2c{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        padding-bottom: 2em;
+      }
+      
+      .flex-fig-container-2c.fig-stack {
+        flex-direction: column;
+      }
+        
+      .flex-fig-item-2c {
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-basis: 47%;
+          margin: 0 2px 0 2px;
+      }
+    }
+  </style>
+
 </body>
 </html>
