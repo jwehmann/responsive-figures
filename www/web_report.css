@@ -251,6 +251,11 @@ margin-bottom: 35px;
   margin-block: 2em;
 }
 
+.h-flex-example-title{
+  font-style: italic;
+  color: red;
+}
+
 
 /* Flexbox images and captions */
 
