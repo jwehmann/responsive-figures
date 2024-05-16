@@ -122,14 +122,6 @@ line-height: 30px;
 margin: 2em 0 .1em;
 }
 
-/* moving Workrise mods to a different CSS file
-h4.wr-header{
-  font-family: franklin-gothic-urw,Lato;
-  font-weight: 100;
-  color: #002e5d;
-}
-*/
-
 /* Paragraph styles */ 
 p {
   font: 1.25rem Lato, sans-serif;
@@ -162,6 +154,8 @@ img {
 padding: 36px 0 32px 0;
 max-width: 100%;
 }
+
+
 
 .navbar {
 background-color: #1696d2;
