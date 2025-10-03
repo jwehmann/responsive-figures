@@ -247,12 +247,14 @@ margin-bottom: 35px;
 
 .h-flex-example{
   font-weight: 700;
-  border-bottom: 1px solid black;
-  padding-bottom: 2em;
-  margin-block: 2em;
+  border-bottom: 1px solid #FF00E5;
+  padding: 0em 0 0em 0;
+  margin: 4em 0 4em 0;
 }
 
 .h-flex-example-title{
+  font-size: .9em;
   font-style: italic;
-  color: red;
+  color: rgb(255, 0, 229);
+  padding-top: 3em;
 }

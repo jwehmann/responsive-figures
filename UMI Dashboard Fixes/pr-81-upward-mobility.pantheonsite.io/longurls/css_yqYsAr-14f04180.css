@@ -914,7 +914,7 @@ div.tree-child-horizontal {
     --dashed-stroke: 2 3 3;
     --density-chart-height: 200px;
     --max-height-tooltip: 250px;
-    --c-UI-black: #FFFFFF;
+    --c-UI-black: #000000;
     --c-UI-nero: #ffffff;
     --c-UI-link-water: #cfe8f3;
     --c-UI-tiber: #062635;
@@ -931,26 +931,34 @@ div.tree-child-horizontal {
     --c-error: #c53030;
     --c-border: var(--c-UI-silver-chalice);
     --c-tooltip-border: #d2d2d2;
+    
     --c-base-work: #55b748;
-    --c-base-opportunity: #72aac6;
+    --c-base-opportunity: #0A4C6A;
     --c-base-education: #EC008B;
-    --c-base-healthcare: #666666;
+    --c-base-healthcare: #DB2B27;
     --c-base-governance: #fdbf11;
-    --c-dark-work: #286221;
-    --c-dark-opportunity: #0a4c6a;
-    --c-dark-education: #6d0040;
+    
+    --c-dark-work: #55b748;
+    --c-dark-opportunity: #0A4C6A;
+    --c-dark-education: #EC008B;
     --c-dark-healthcare: #DB2B27;
-    --c-dark-governance: #644a00;
-    --c-control-work: #55b748;
-    --c-control-work-secondary: #55b748;
-    --c-control-opportunity: #1696d2;
-    --c-control-opportunity-secondary: #eaf9ff;
-    --c-control-education: #EC008B;
-    --c-control-education-secondary: #fedfef;
-    --c-control-healthcare: #DB2B27;
-    --c-control-healthcare-secondary: #f6f6f6;
-    --c-control-governance: #fdbf11;
-    --c-control-governance-secondary: #fff4d7;
+    --c-dark-governance: #fdbf11;
+    
+    --c-control-work: #DCEDD9;
+    --c-control-work-secondary: #f5f5f5;
+    
+    --c-control-opportunity: #CFE8F3;
+    --c-control-opportunity-secondary: #f5f5f5;
+    
+    --c-control-education: #F5CBDF;
+    --c-control-education-secondary: #f5f5f5;
+    
+    --c-control-healthcare: #F8D5D4;
+    --c-control-healthcare-secondary: #f5f5f5;
+    
+    --c-control-governance: #FFF2CF;
+    --c-control-governance-secondary: #f5f5f5;
+    
     --c-control-border: #696969;
     --c-dotplot-bar: #e3e3e3;
     --c-grid-line: #dedddd;
@@ -964,7 +972,7 @@ div.tree-child-horizontal {
 }
 
 :root *,:root :before,:root :after {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 :root body {
@@ -2554,7 +2562,7 @@ svg line._line_w096m_40 {
     font-weight: 700;
     font-size: 18px;
     color: var(--c-UI-black);
-    background-color: var(--c-UI-link-water);
+    background-color: var(--c-UI-wild-sand);
     padding: 15px;
     display: flex;
     align-items: center;

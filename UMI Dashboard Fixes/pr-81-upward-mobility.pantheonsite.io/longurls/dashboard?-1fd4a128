@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<script type="text/javascript">var dataLayer_tags = {"urban_page":{"updated_date":"2024-07-18","page_title":"Upward Mobility Dashboard","response_code":"200","content_type":"Basic Page"},"urban_site":{"site_name":"Upward Mobility Initiative"}};</script>
+<script type="text/javascript" src="/modules/custom/urban_datalayer/js/urban_datalayer.js"></script>
+<script type="text/javascript">window.dataLayer = window.dataLayer || []; window.dataLayer.push(dataLayer_tags);</script>
+<link rel="canonical" href="https://pr-81-upward-mobility.pantheonsite.io/dashboard" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/lyndon/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://pr-81-upward-mobility.pantheonsite.io/dashboard" />
+
+    <title>Upward Mobility Dashboard | Upward Mobility Initiative</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_yqYsAro9RnQGEhLCnTtAv8Bgfb0sy6TgX8KyiZq8KG8.css?delta=0&amp;language=en&amp;theme=lyndon&amp;include=eJx1jFEKxCAMRC8k5kiSmtgG1Cwmtnj7XRa6_dqf4c0MvKLd8WLTxlAejnbuofz_oh3Sgi1zbrChcairk3YgNtn73fzgxsEcXcwlG9CYL6zxWULFpdMTiWU9eSzQzllrOIUvg2_GpjQrh9lKIrRjUxwEP7oV25RKPMAv_QiScXbR_gZd81lL" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css__kSGXPPkczpxITwjim7dm7s3xEAIu5YEMXP4u56EDa8.css?delta=1&amp;language=en&amp;theme=lyndon&amp;include=eJx1jFEKxCAMRC8k5kiSmtgG1Cwmtnj7XRa6_dqf4c0MvKLd8WLTxlAejnbuofz_oh3Sgi1zbrChcairk3YgNtn73fzgxsEcXcwlG9CYL6zxWULFpdMTiWU9eSzQzllrOIUvg2_GpjQrh9lKIrRjUxwEP7oV25RKPMAv_QiScXbR_gZd81lL" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_eyEIYLlJvKSeYRA9MkOO3t1n2zOUCG0tLaf86uWBYbw.css?delta=2&amp;language=en&amp;theme=lyndon&amp;include=eJx1jFEKxCAMRC8k5kiSmtgG1Cwmtnj7XRa6_dqf4c0MvKLd8WLTxlAejnbuofz_oh3Sgi1zbrChcairk3YgNtn73fzgxsEcXcwlG9CYL6zxWULFpdMTiWU9eSzQzllrOIUvg2_GpjQrh9lKIrRjUxwEP7oV25RKPMAv_QiScXbR_gZd81lL" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_UiTTzggIg-6NhdkthOKIvcFZv8qYHI0n_v0h5rdjxkM.css?delta=3&amp;language=en&amp;theme=lyndon&amp;include=eJx1jFEKxCAMRC8k5kiSmtgG1Cwmtnj7XRa6_dqf4c0MvKLd8WLTxlAejnbuofz_oh3Sgi1zbrChcairk3YgNtn73fzgxsEcXcwlG9CYL6zxWULFpdMTiWU9eSzQzllrOIUvg2_GpjQrh9lKIrRjUxwEP7oV25RKPMAv_QiScXbR_gZd81lL" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/386","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"_metric_id":"PhysicianRatio","_variable_id":"ratio_population_pc_physician","_year":"2021","predictor_ids":"AccessToHealthServices"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1iUEOwyAMBD-E8JOQg01iCXCFTSJ-36pSmlMvq9mZot3xYtPGUB6Odu6h_G_RDmmh4tLpaZtSiQf4pVlrMs4u2u9KYllPHgu086eHujppB2KTvd_PD24czNHFXLIBjfnCGh8TbJlzgw2Nw2wlEdqxKQ6CH4VT-DL4bmxKs_IbqBpZSw","theme":"lyndon","theme_token":null},"ajaxTrustedUrl":{"\/search\/node":true},"statistics":{"data":{"nid":"386"},"url":"\/core\/modules\/statistics\/statistics.php"},"user":{"uid":0,"permissionsHash":"e8277e60b154476f84348e070629cafaddff622efd9a3d4a0dc0627ab183b1e5"}}</script>
+<script src="/themes/custom/lyndon/assets/js/jquery.min.js?sh0zzc"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.2.6"></script>
+<script src="/core/misc/drupal.js?v=10.2.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.2.6"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.3.0"></script>
+<script src="/core/misc/progress.js?v=10.2.6"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/misc/debounce.js?v=10.2.6"></script>
+<script src="/core/misc/announce.js?v=10.2.6"></script>
+<script src="/core/misc/message.js?v=10.2.6"></script>
+<script src="/core/misc/ajax.js?v=10.2.6"></script>
+<script src="/themes/contrib/stable/js/ajax.js?v=10.2.6"></script>
+<script src="/core/misc/displace.js?v=10.2.6"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.2.6"></script>
+<script src="/core/misc/position.js?v=10.2.6"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.2.6"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.2.6"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.2.6"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.2.6"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.2.6"></script>
+<script src="/themes/custom/lyndon/lyndon_build/1.4.0-dev.112/dist/urban/urban.esm.js?sh0zzc" type="module" weight="100"></script>
+<script src="/themes/custom/lyndon/lyndon_build/1.4.0-dev.112/dist/urban/urban.js?sh0zzc" nomodule weight="100"></script>
+
+  </head>
+  <body>
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div id="page-wrapper" class="page-wrapper dashboard-page">
+  <lbj-header variant="primary" >
+    <div slot="search">
+      <form class="search-block-form" data-drupal-selector="search-block-form" action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        
+<lbj-input>
+  <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+</lbj-input>
+
+
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+<lbj-input>
+  <input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</lbj-input>
+
+
+</div>
+
+</form>
+
+    </div>
+    <a href="/" slot="logoIcon" class="z-10">
+      <img src="/themes/custom/lyndon/lyndon_build/1.4.0-dev.112/dist/urban/assets/ui-badge-white.svg" height="36" alt="The Urban.org Logo">
+    </a>
+    <div slot="cta">
+        <div>
+    <div id="block-registrationformpromo" data-block-plugin-id="block-content-79689bd0-5fe0-4ce2-a829-454e8fcc3950">
+  
+                    
+    <lbj-title class="text-white inline-block mr-4" variant="heading-5" element="div">
+            <div>Sign up for Upward Mobility Framework project updates</div>
+      </lbj-title>
+  <lbj-button variant="primary-dark" size="sm" href="https://urbn.is/upwardmobilityupdates" icon>Subscribe</lbj-button>
+</div>
+
+  </div>
+
+    </div>
+      
+<nav slot="drawer" role="navigation" aria-labelledby="block-mainnavigation-2-menu" id="block-mainnavigation-2" data-block-plugin-id="system-menu-block-main">
+  <lbj-list variant="col-one" tag="ul" bullet="none">
+          
+
+  
+  
+                    <lbj-list  data-block-region="drawer" variant="col-one" class="mt-6 text-left">
+                    <li class="mb-3">
+          <lbj-link variant="content" href="/boosting-upward-mobility-planning-guide-local-action">
+            Planning Guide
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/mobility-action-plans">
+            Action Plans
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/measuring-upward-mobility-counties-and-cities-across-us">
+            Data
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/metrics-and-evidence">
+            Metrics &amp; Evidence
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/reports">
+            Reports
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/blog">
+            Blog
+          </lbj-link>
+        </li>
+              <li class="mb-3">
+          <lbj-link variant="content" href="/about">
+            About
+          </lbj-link>
+        </li>
+          </lbj-list>
+    
+
+      </lbj-list>
+</nav>
+
+
+      
+<nav slot="main" role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" data-block-plugin-id="system-menu-block-main">
+            
+  <h2 class="block__title visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+
+  
+  
+                    <lbj-list  data-block-region="header" variant="inline">
+                    <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/boosting-upward-mobility-planning-guide-local-action" title="Planning Guide">Planning Guide</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/mobility-action-plans" title="Action Plans">Action Plans</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/measuring-upward-mobility-counties-and-cities-across-us" title="Data">Data</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/metrics-and-evidence" title="Metrics &amp; Evidence">Metrics &amp; Evidence</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/reports" title="Reports">Reports</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/blog" title="Blog">Blog</lbj-link>
+                            </li>
+              <li class="flex pl-8">
+                      <lbj-link variant="nav-primary-dark" href="/about" title="About">About</lbj-link>
+                            </li>
+          </lbj-list>
+    
+
+  </nav>
+
+
+  </lbj-header>
+    <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+    <main class="container px-4 md:px-0 mx-auto " role="main">
+      <a id="main-content" tabindex="-1"></a>
+      <div>
+    <div id="block-lyndon-content" data-block-plugin-id="system-main-block">
+  
+                    
+      <article data-history-node-id="386">
+
+  
+    
+
+  
+  <div>
+      <div class="layout layout--twocol-section layout--twocol-section--50-50">
+
+          <div  class="layout__region layout__region--first">
+        <div data-block-plugin-id="entity-view-node">
+  
+                    
+      
+<header data-history-node-id="386" class="text-center">
+  <lbj-layout variant="narrow">
+    <div slot="main">
+      
+                <lbj-title element="h1" variant="heading-1" class="border-secondary-b-500 border-l-8 px-4 md:px-11 mb-11">
+                  <span>        Upward Mobility Dashboard
+    </span>
+
+        </lbj-title>
+      
+
+          </div>
+  </lbj-layout>
+
+  <hr class="mt-6 sm:mt-8" />
+
+</header>
+
+  </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        <div data-block-plugin-id="field-block-node-basic-page-field-body">
+  
+                    
+      
+            <div><p>The Upward Mobility Dashboard helps users understand key conditions affecting upward mobility from poverty and racial equity in communities.</p><p>The dashboard provides Mobility Metrics data for 24 predictors. The <strong>predictors</strong> are indicators that are strongly associated with upward mobility, according to the Upward Mobility Framework’s &lt;&lt;link to Framework page&gt;&gt;&nbsp; three-part definition of the term that encompasses long-term economic success, dignity and belonging, and power and autonomy. The predictors fall within one of five <strong>pillars,</strong> which represent areas of support people need to achieve upward mobility and racial equity.</p><p>People can use the predictors and their associated metrics to evaluate current conditions, establish priorities, mobilize action, and assess progress. The dashboard shows a snapshot of these 24 predictors over time, across categories, and for every county and more than 480 cities in the US.</p></div>
+      
+  </div>
+<div data-block-plugin-id="inline-block-basic">
+  
+            <lbj-title class="pb-2 md:pb-3 lg:pb-4" variant="heading-3" element="h3"></lbj-title>
+        
+      
+  <div>
+    <div class="visually-hidden">Body</div>
+              <div><p><lbj-button class="tour-btn mr-4" mode="urban" variant="primary" size="md" href="/">Tour This Page</lbj-button>&nbsp;<lbj-button mode="urban" variant="primary" size="md" href="/frequently-asked-questions" target="_blank">FAQ</lbj-button></p></div>
+          </div>
+
+  </div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div data-block-plugin-id="inline-block-basic">
+  
+            <lbj-title class="pb-2 md:pb-3 lg:pb-4" variant="heading-3" element="h3"></lbj-title>
+        
+      
+  <div>
+    <div class="visually-hidden">Body</div>
+              <div><h2>Search for specific communities</h2></div>
+          </div>
+
+  </div>
+<div data-block-plugin-id="umf-dashboard-search-block">
+  
+                    
+      <div id="umf_dashboard_search" class="umf_dashboard_search"><search-widget
+      clear-all-label="Clear All"
+      select-all-label="Select All"
+      left-heading="Select between 1 and 6 communities"
+      left-descriptor="Search for any county or any city with a population greater than 75,000 in the US. "
+      right-heading="Select predictors or pillars"
+      right-descriptor="Select predictors or pillars from the menu below to see the data."
+      link1-text="Don&rsquo;t see your city? Learn how to access data for smaller cities"
+      link1-url="/"
+      link2-text="Link 2"
+      link2-url="/"
+      search-button-label="Search"
+      all-selected-label="All"
+      selected-predictors-count-label="Selected Predictors:"
+      location-warning-title="Warning:"
+      location-warning-message="&lt;p&gt;The Mobility Metrics are calculated differently for cities and counties, so the two are not always comparable. Learn more about how the metrics are calculated&amp;lt;&amp;gt;.&lt;/p&gt;"
+      data-results-slug="data-results"
+      location-search-primary-placeholder="Type the name of a city or a county."
+      location-search-secondary-placeholder="Type the name of a city or a county to compare."
+      ></search-widget></div>
+
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div data-block-plugin-id="inline-block-basic">
+  
+            <lbj-title class="pb-2 md:pb-3 lg:pb-4" variant="heading-3" element="h3"></lbj-title>
+        
+      
+  <div>
+    <div class="visually-hidden">Body</div>
+              <div><h2>Explore Mobility Metrics across the country</h2></div>
+          </div>
+
+  </div>
+<div data-block-plugin-id="umf-dashboard-explore-block">
+  
+                    
+      <div id="umf_dashboard_explore" class="umf_dashboard_explore"><explore-widget
+      select-widget-title="Select a predictor"
+      map-tab-label="Map"
+      distribution-tab-label="Chart"
+      location-type-toggle-label="Choose counties or cities."
+      year-selector-label="Select year"
+      line-multiple-metrics-label="Add line of text for predictors with multiple metrics under predictor name"
+      location-type-toggle-tooltip="Map view is currently available only for counties. Click the chart tab to view cities."
+      map-legend-label="Legend"
+      variable-selector-label="Select value"
+      data-not-available-message="There is no data available or missing data for this selection"
+      data-not-available-message-edge-case="There is no data available or missing data for this selection. Explore further:  Wealth building opportunities"
+      data-not-available-label="Data not available"
+      national-median-legend-label="National median"
+      frequently-asked-questions-slug="frequently-asked-questions"
+      see-problem-map-label="See a problem with this visualization? Let us know. "
+      see-problem-map-link=""
+      location-search-placeholder="Type the name of a county or city."
+      ></explore-widget></div>
+
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div data-block-plugin-id="inline-block-basic">
+  
+            <lbj-title class="pb-2 md:pb-3 lg:pb-4" variant="heading-3" element="h3"></lbj-title>
+        
+      
+  <div>
+    <div class="visually-hidden">Body</div>
+              <div><h4>Using Mobility Metrics data&nbsp;<o:p></o:p></h4></div>
+          </div>
+
+  </div>
+<div class="views-element-container" data-block-plugin-id="views-block-latest-features-list-most-recent">
+  
+      
+      <div><div class="js-view-dom-id-7b5803bed80513384970738cfd25dbc1bf79731032eb0ca94f2b69c53859adb2">
+  
+  
+  
+
+  
+  
+  
+
+  <div>
+  
+  <ul class="md:grid md:grid-cols-3 md:gap-10 list">
+
+          <li class="mb-10 md:mb-0"><article data-history-node-id="177" class="mt-8">
+  <div>
+    <div>
+      
+            <div><article>
+  
+      
+            <div>    <picture>
+                  <source srcset="/sites/default/files/styles/card_360x240/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=V_nGKJT7 1x" media="(min-width: 1280px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_360x240/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=V_nGKJT7 1x" media="(min-width: 1024px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_228x152/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=T8y-GtpT 1x" media="(min-width: 768px)" type="image/jpeg" width="228" height="152"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=mEZPOBi_ 1x" media="(min-width: 640px)" type="image/jpeg" width="343" height="229"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=mEZPOBi_ 1x" media="(min-width: 0px)" type="image/jpeg" width="343" height="229"/>
+                  <img loading="eager" src="/sites/default/files/styles/card_360x240/public/2024-02/shutterstock_531138067_crop.jpg?h=1ae9b375&amp;itok=V_nGKJT7" width="360" height="240" alt="Networking Seminar Meet Up" />
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+      
+    </div>
+    
+          <lbj-link class="mb-2 hover:text-blue-500" variant="heading-5" icon="false" href="/driving-economic-mobility">
+        <span>        Driving Economic Mobility
+    </span>
+
+      </lbj-link>
+        
+          <div class="small">
+            Community foundations can play multiple roles, such as funder, convener, champion, or partner, to promote upward mobility in their communities. They support systemic change efforts to disrupt barriers that limit individuals and families from reaching their full potential.
+      </div>
+      </div>
+</article>
+</li>
+          <li class="mb-10 md:mb-0"><article data-history-node-id="175" class="mt-8">
+  <div>
+    <div>
+      
+            <div><article>
+  
+      
+            <div>    <picture>
+                  <source srcset="/sites/default/files/styles/card_360x240/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=gSIXc8b7 1x" media="(min-width: 1280px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_360x240/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=gSIXc8b7 1x" media="(min-width: 1024px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_228x152/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=JfFNUCdx 1x" media="(min-width: 768px)" type="image/jpeg" width="228" height="152"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=XSb8QrHX 1x" media="(min-width: 640px)" type="image/jpeg" width="343" height="229"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=XSb8QrHX 1x" media="(min-width: 0px)" type="image/jpeg" width="343" height="229"/>
+                  <img loading="eager" src="/sites/default/files/styles/card_360x240/public/2024-01/umf%20framework%20graphic.jpg?h=aa952854&amp;itok=gSIXc8b7" width="360" height="240" alt="Framework" />
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+      
+    </div>
+    
+          <lbj-link class="mb-2 hover:text-blue-500" variant="heading-5" icon="false" href="/why-dignity-matters-upward-mobility">
+        <span>        Why Dignity Matters to Upward Mobility
+    </span>
+
+      </lbj-link>
+        
+          <div class="small">
+            The Urban Institute’s Upward Mobility Framework, which provides data and tools for community stakeholders to develop and advance policies and programs that increase upward mobility and racial equity, has adopted the US Partnership’s three-part definition of mobility.
+      </div>
+      </div>
+</article>
+</li>
+          <li class="mb-10 md:mb-0"><article data-history-node-id="173" class="mt-8">
+  <div>
+    <div>
+      
+            <div><article>
+  
+      
+            <div>    <picture>
+                  <source srcset="/sites/default/files/styles/card_360x240/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=tAprOF50 1x" media="(min-width: 1280px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_360x240/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=tAprOF50 1x" media="(min-width: 1024px)" type="image/jpeg" width="360" height="240"/>
+              <source srcset="/sites/default/files/styles/card_228x152/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=kOOORyW0 1x" media="(min-width: 768px)" type="image/jpeg" width="228" height="152"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=PZV_BYyA 1x" media="(min-width: 640px)" type="image/jpeg" width="343" height="229"/>
+              <source srcset="/sites/default/files/styles/card_353x229/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=PZV_BYyA 1x" media="(min-width: 0px)" type="image/jpeg" width="343" height="229"/>
+                  <img loading="eager" src="/sites/default/files/styles/card_360x240/public/2023-12/GettyImages-1703275538.jpg?h=1ae9b375&amp;itok=tAprOF50" width="360" height="240" alt="Street Food Festival" />
+
+  </picture>
+
+</div>
+      
+  </article>
+</div>
+      
+    </div>
+    
+          <lbj-link class="mb-2 hover:text-blue-500" variant="heading-5" icon="false" href="/building-and-sharing-knowledge-advance-economic-success-power-and-dignity">
+        <span>        Building and Sharing Knowledge to Advance Economic Success, Power, and Dignity
+    </span>
+
+      </lbj-link>
+        
+          <div class="small">
+            This week, the Bill &amp; Melinda Gates Foundation announced substantial new investments to advance economic mobility and opportunity in the United States. The Urban Institute is proud to be among the foundation’s anchor partners, building and sharing knowledge changemakers need to accelerate solutions that increase upward mobility and promote equity.&nbsp;
+      </div>
+      </div>
+</article>
+</li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  <div class="text-right"><lbj-link variant="link" icon="true" href="/blog">See all blog posts</lbj-link></div>
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div data-block-plugin-id="inline-block-basic">
+  
+            <lbj-title class="pb-2 md:pb-3 lg:pb-4" variant="heading-3" element="h3"></lbj-title>
+        
+      
+  <div>
+    <div class="visually-hidden">Body</div>
+              <div><div class="citation-block"><h5>Suggested Citation</h5><p><span>“Upward Mobility Dashboard,” Upward Mobility Initiative, Urban Institute, [date of launch/last update], &lt;&lt;URL to this page&gt;&gt;.</span><span style="font-size:10.0pt;"><o:p></o:p></span></p><h5><span>Project Credits</span></h5><p><strong>Research and Management<o:p></o:p></strong></p><p><a href="https://www.urban.org/author/samantha-fu">Samantha Fu</a>, <a href="https://www.urban.org/author/madeline-brown">Madeline Brown</a>, <a href="https://www.urban.org/author/tina-chelidze">Tina Chelidze</a>, <a href="https://www.urban.org/author/lee-d-evans">Lee Evans</a>, <a href="https://www.urban.org/author/samantha-cressman">Sam Cressman</a>, and <a href="https://www.urban.org/author/jordan-moeny">Jordan Moeny</a>&nbsp;<o:p></o:p></p><p><span style="color:black;"><strong>Data&nbsp;</strong><o:p></o:p></span></p><p><span style="color:black;">Leadership:&nbsp;</span><a href="https://www.urban.org/author/claudia-d-solari"><span>Claudia D. Solari</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/aaron-r-williams"><span>Aaron R. Williams</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/tina-chelidze"><span>Tina Chelidze</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/john-walsh"><span>John Walsh</span></a><span style="color:black;">, and&nbsp;</span><a href="https://www.urban.org/author/gregory-acs"><span>Greg Acs</span></a><span style="color:black;">&nbsp; &nbsp;<o:p></o:p></span></p><p><span style="color:black;">Contributors:&nbsp;</span><a href="https://www.urban.org/author/vincent-pancini"><span>Vincent Pancini</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/emily-gutierrez"><span>Emily Gutierrez</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/manuel-alcala-kovalski"><span>Manuel Alcalá Kovalski</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/kassandra-martinchek"><span>Kassandra Martinchek</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/james-carter"><span>James Carter</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/jung-hyun-choi"><span>Jung Hyun Choi</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/rebecca-marx"><span>Rebecca Marx</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/julia-long"><span>Julia Long</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/gabriel-morrison"><span>Gabriel Morrison</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/rob-pitingolo"><span>Rob Pitingolo</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/lily-robin"><span>Lily Robin</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/anne-junod"><span>Anne&nbsp; N. Junod</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/paul-johnson"><span>Paul Johnson</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/keith-fudge"><span>Keith Fudge</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/bill-pitkin"><span>Bill Pitkin</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/emily-m-johnston"><span>Emily M. Johnston</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/keqin-wei"><span>Keqin Wei</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/alena-stern"><span>Alena Stern</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/judah-axelrod"><span>Judah Axelrod</span></a><span style="color:black;">,&nbsp;</span><a href="https://www.urban.org/author/erika-tyagi"><span>Erika Tyagi</span></a><span style="color:black;">,&nbsp;</span><span>Kevin Werner</span><span style="color:black;">, Erica Blom, Amy Rogin, Vivian Zheng, Nicole Dubois, and Peace Gwam<o:p></o:p></span></p><p><strong>Design and Development&nbsp;<o:p></o:p></strong></p><p><a href="https://www.urban.org/author/aleszu-bajak">Aleszu Bajak</a>, <a href="https://www.urban.org/author/mitchell-thorson">Mitchell Thorson</a>, <a href="https://www.urban.org/author/josh-miller">Josh Miller</a>, <a href="https://www.urban.org/author/david-connell">David Connell</a>, <a href="https://www.urban.org/author/farnoosh-johnson">Farnoosh Johnson</a>, and <a href="https://www.urban.org/author/christina-baird">Christina Baird</a><o:p></o:p></p><p><a href="https://greatergoodstudio.com/">Greater Good Studio</a><o:p></o:p></p><p><a href="https://graphicacy.com/">Graphicacy</a><o:p></o:p></p><p><strong>Writing and Editing&nbsp;<o:p></o:p></strong></p><p style="line-height:107%;"><a href="https://www.urban.org/author/rachel-kenney">Rachel Kenney</a>, <a href="https://www.urban.org/author/sujin-hong">Sujin Hong</a>, and <a href="https://www.urban.org/author/arezo-azizi">Arezo Azizi</a>&nbsp;</p><h5><span>More Information</span></h5><p>Visit our data catalog &lt;&lt; link to data catalog &gt;&gt; to download the underlying data and accompanying data documentation. The code used to create these files is available on GitHub &lt;&lt; link to public repo &gt;&gt;.&nbsp;<o:p></o:p></p><p>Visit the Mobility Metrics page &lt;&lt; link to MM page &gt;&gt; to learn more about each metric.&nbsp;<o:p></o:p></p><p style="line-height:107%;">For questions or feedback, email <a href="mailto:XX@urban.org">XX@urban.org</a>.&nbsp;<o:p></o:p><o:p></o:p></p></div></div>
+          </div>
+
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+  </main>
+</div>
+
+<lbj-footer>
+  <div slot="logo">
+    <a href="https://www.urban.org/">
+      <img src="/themes/custom/lyndon/lyndon_build/1.4.0-dev.112/dist/urban/assets/ui-main-white.svg" alt="The Urban.org Logo" class="h-16"/>
+    </a>
+  </div>
+      
+<nav slot="footer" role="navigation" aria-labelledby="block-lyndon-footer-menu" id="block-lyndon-footer" data-block-plugin-id="system-menu-block-footer">
+            
+  <h2 class="block__title visually-hidden" id="block-lyndon-footer-menu">Footer Main</h2>
+  
+
+        
+
+  
+  
+                    <lbj-list  data-block-region="footer" variant="inline">
+                    <li class="flex items-center pr-8">
+                      <lbj-link variant="nav-primary-light" href="/about" title="About">About</lbj-link>
+                            </li>
+              <li class="flex items-center pr-8">
+                      <lbj-link variant="nav-primary-light" href="https://www.urban.org/aboutus/who-we-are/careers" title="Careers">Careers</lbj-link>
+                            </li>
+              <li class="flex items-center pr-8">
+                      <lbj-link variant="nav-primary-light" href="https://www.urban.org/aboutus/support-us/donate-now-support-research-and-data-ignite-change" title="Support Us">Support Us</lbj-link>
+                            </li>
+          </lbj-list>
+    
+
+  </nav>
+
+<nav slot="legal" role="navigation" aria-labelledby="block-legal-menu" id="block-legal" data-block-plugin-id="system-menu-block-legal">
+            
+  <h2 class="block__title visually-hidden" id="block-legal-menu">Legal</h2>
+  
+
+        
+
+  
+  
+                    <lbj-list  data-block-region="footer" variant="inline">
+                    <li class="flex items-center pb-4 pr-6 md:pr-8">
+                      <a href="https://www.urban.org/privacy-policy" title="Privacy" class="font-sans text-sm font-normal leading-normal text-white">Privacy</a>
+                            </li>
+              <li class="flex items-center pb-4 pr-6 md:pr-8">
+                      <a href="https://www.urban.org/terms-service" title="Terms of Service" class="font-sans text-sm font-normal leading-normal text-white">Terms of Service</a>
+                            </li>
+              <li class="flex items-center pb-4 pr-6 md:pr-8">
+                      <span title="Copyright © Urban Institute" class="font-sans text-sm font-normal leading-normal text-white">Copyright © Urban Institute</span>
+                            </li>
+          </lbj-list>
+    
+
+  </nav>
+
+<nav slot="social" role="navigation" aria-labelledby="block-social-menu" id="block-social" data-block-plugin-id="system-menu-block-social">
+            
+  <h2 class="block__title visually-hidden" id="block-social-menu">Social</h2>
+  
+
+        
+
+  
+                    <lbj-list  data-block-region="footer" variant="inline">
+                    <li class="px-3 md:pl-6">
+                    <a href="https://twitter.com/urbaninstitute" title="Twitter">
+            <lbj-icon name="twitter" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+              <li class="px-3 md:pl-6">
+                    <a href="https://www.facebook.com/urbaninstitute" title="Facebook">
+            <lbj-icon name="facebook" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+              <li class="px-3 md:pl-6">
+                    <a href="https://www.linkedin.com/company/urban-institute" title="LinkedIn">
+            <lbj-icon name="linkedin" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+              <li class="px-3 md:pl-6">
+                    <a href="https://www.youtube.com/c/theurbaninstitute/" title="YouTube">
+            <lbj-icon name="youtube" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+              <li class="px-3 md:pl-6">
+                    <a href="https://www.instagram.com/urbaninstitute/" title="Instagram">
+            <lbj-icon name="instagram" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+              <li class="px-3 md:pl-6">
+                    <a href="https://www.reddit.com/user/urbaninstitute/" title="Reddit">
+            <lbj-icon name="reddit" color="white" size="lg"></lbj-icon>
+          </a>
+                  </li>
+          </lbj-list>
+    
+
+  </nav>
+
+  </lbj-footer>
+
+
+  </div>
+
+    
+    <script src="/core/modules/statistics/statistics.js?v=10.2.6"></script>
+<script src="/modules/custom/umf_dashboard/js/dashboard/dist/assets/index.js?v=1"></script>
+
+  </body>
+</html>

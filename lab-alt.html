@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="author" content />
+
+
+<title>Responsive Infographic Demo</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+<style type="text/css">.hljs-literal {
+color: #990073;
+}
+.hljs-number {
+color: #099;
+}
+.hljs-comment {
+color: #998;
+font-style: italic;
+}
+.hljs-keyword {
+color: #900;
+font-weight: bold;
+}
+.hljs-string {
+color: #d14;
+}
+</style>
+
+<style type="text/css">
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+<link rel="stylesheet" href="www/web_report.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+<!--html_start-->
+
+
+
+<div class="main-container">
+
+<!-- EXAMPLE 4 LAB-->
+
+<div class="h-flex-example">
+  <a name="ex4"></a>
+  <p class="h-flex-example-title"><b>Example 4:</b> LAB About Us Page</p>
+</div>
+
+<p>In the Research to Action Lab, we help communities turn evidence into impact. Our training and technical assistance goes beyond sharing knowledge. It connects data, people, and ideas to create solutions that help more people and communities thrive. We work directly with organizations, leaders, and funders to build capacity, improve systems, and deliver measurable, lasting results.</p>
+<br  />
+
+ <div class="flex-fig-container-4c">
+  <div class="flex-fig-item-4c">
+    <img class="flex-fig-visual" src="www/figures/set3-LAB/lab-fig1-hdr1-principles.svg">
+    <ul class="flex-fig-caption-list">
+      <li><b>Place-based: </b>Tailored support to the unique geographic, cultural, social, and economic context of a community.</li>
+      <li><b>Evidence-based: </b>Anchored in the latest research and data.</li>
+      <li><b>Impact-focused: </b>Designed to produce measurable, equitable outcomes.</li>
+    </ul>
+  </div>
+  <div class="flex-fig-item-4c">
+    <img class="flex-fig-visual" src="www/figures/set3-LAB/lab-fig1-hdr2-expertise.svg">
+    <ul class="flex-fig-caption-list">
+      <li>Adult learning and curriculum design</li>
+      <li>Systems and design thinking</li>
+      <li>Facilitating group decision-making and learning</li>
+      <li>Strategic advising</li>
+      <li>Policy and research</li>
+      <li>Community and stakeholder engagement</li>
+      <li>Training and coaching</li>
+    </ul>
+  </div>
+  <div class="flex-fig-item-4c">
+    <img class="flex-fig-visual" src="www/figures/set3-LAB/lab-fig1-hdr3-methods.svg">
+    <ul class="flex-fig-caption-list">
+      <li>Develop and lead peer learning and communities of practice to facilitate shared problem-solving and help local leaders develop and implement proven strategies.</li>
+      <li>Provide customized 1-on-1 technical assistance and coaching that builds internal expertise and strengthens local capacity.</li>
+      <li>Guide organizations to clarify their impact through developing/ refining a theory of change and/or logic model.</li>
+      <li>Convene funders, policymakers, and practitioners to spark collaboration around emerging challenges and effective solutions.</li>
+      <li>Deliver group-based interactive skill-building training through workshops, bootcamps, and eLearning modules that emphasize hands-on practice and real-world application</li>
+      <li>Develop toolkits, playbooks, guides that codify best practices and ensure learning can be shared and scaled.</li>
+    </ul>
+  </div>
+  <div class="flex-fig-item-4c">
+    <img class="flex-fig-visual" src="www/figures/set3-LAB/lab-fig1-hdr4-outcomes.svg">
+    <ul class="flex-fig-caption-list">
+      <li>Partners use data and evidence to inform decisions.</li>
+      <li>Communities engage meaningfully in shaping solutions.</li>
+      <li>Organizations build sustainable, equity-driven practices.</li>
+      <li>Local leaders connect with peers and experts to innovate.</li>
+      <li>Systems change is guided by measurable impact and shared learning.</li>
+    </ul>
+  </div>
+</div>
+
+
+</div>
+
+
+<!-- FLEXBOX FIGURE STYLES v3 -->
+
+<style>
+  
+/* Workrise modifications to standard styles*/
+    
+    b.wr-caption-pop{
+      color: #00315C; 
+    }
+    
+    .source.wr-source{
+      font-family: franklin-gothic-urw,Lato;
+    }
+    
+    .flex-fig-caption.wr-caption {
+      font-family: Georgia, serif;
+      line-height: 1.5;
+    }
+    
+/* Flexbox images and captions */
+    
+    .flex-fig-caption {
+      margin: 0em .5em 0em .5em;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      font-family: Lato;
+    }
+    
+    .flex-fig-caption.centered {
+      margin: 0em .5em 0em .5em;
+      font-size: 1rem;
+      line-height: 1.3rem;
+      font-family: Lato;
+      text-align: center;
+    }
+    
+    .flex-fig-caption-list {
+      list-style-type: square;
+      list-style-position: outside;
+      padding-inline-start: 1em;
+      padding-block-start: 0px;
+    }
+    
+    .flex-fig-caption-list::marker {
+      color: blue;
+    }
+    
+    .flex-fig-visual {
+      display: block;
+      width: 100%;
+      vertical-align: bottom;
+      padding:0 0 0 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    /*Flexbox infographic any columns: */
+    
+    .flex-fig-container-multicol {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding-bottom: 3em;
+    }
+    
+    .flex-fig-item-multicol {
+      flex: 0 2 150px;
+  
+      font-size: .9em;
+      line-height: 1.2em;
+      font-weight: bold;
+      text-align: center;
+      padding: 0em 0em 1em 0em;
+      /* border: 1px dashed blue; */
+    }
+    
+    /* Flexbox infographic - FOUR COLUMNS */
+    
+    .flex-fig-container-4c {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-bottom: 3em;
+    }
+    
+    .flex-fig-item-4c {
+      flex: 1 0 25%;
+    }
+    
+    /* Flexbox infographic - TWO COLUMNS */
+    
+    .flex-fig-container-2c {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      height: 100%;
+      justify-content: space-around;
+      padding-bottom: 2em;
+    }
+    
+    .flex-fig-container-2c.fig-stack {
+      flex-direction: row;
+    }
+    
+    .flex-fig-item-2c {
+      display: flex;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 40%;
+      flex-direction: column;
+    }
+    
+    /* Adjustments for mobile*/
+    
+    @media (max-width: 550px) {
+      
+      .flex-fig-caption{
+        font-size: .8rem;
+        line-height: 1.1rem;
+      }
+      
+      .source{
+        font-size: 0.8rem;
+      }
+      
+      .flex-fig-container-4c{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        padding-bottom: 2em;
+      }
+        
+      .flex-fig-item-4c {
+          flex: 0 1 50%;
+      }
+        
+      .flex-fig-container-2c{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        padding-bottom: 2em;
+      }
+      
+      .flex-fig-container-2c.fig-stack {
+        flex-direction: column;
+      }
+        
+      .flex-fig-item-2c {
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-basis: 47%;
+          margin: 0 2px 0 2px;
+      }
+    }
+  </style>
+
+</body>
+</html>
